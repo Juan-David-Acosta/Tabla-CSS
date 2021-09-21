@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(120deg, #84558a 0%, #f55a6fe5 100%);
+}
+
+.contenedor{
+    background-image: linear-gradient(120deg, #c42ad8cc 0%, #511a53 100%);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagen-redonda{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.tabla{
+  width: 33%;
+  height: 550px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding:  60px;
+  text-align: center;
+  background-color: white;
+  color: #dd5b9c;
+}
+
+ p{
+    display: block;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.tabla>h2{
+    width: 170px;
+    height: 170px;
+}
+
+.tabla:hover{
+    background: white;
+    color: violet;
+    transition: 0.2 all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
